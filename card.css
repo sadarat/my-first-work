@@ -1,0 +1,74 @@
+     body {
+         background:gray;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;}
+ 
+      .atm-card {
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        width: 350px;
+ 
+        border-radius: 20px;
+        color: white;
+        padding: 20px;}
+ 
+     
+      .card-header {
+         display: flex;
+           /* using Flexbox in CSS to display the items side by side/used Flexbox to position them neatly.”)
+        */
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+     .card-header h3 {
+        margin: 0;}
+ 
+      
+      .chip {
+         width: 40px;}
+ 
+    
+      .card-number {
+        margin: 30px 0;
+       font-size: 1.5em;
+       letter-spacing: 2px;
+       text-align: center;
+       font-family: 'Share Tech Mono', monospace;
+   }
+      
+      .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+     
+      .card-holder span,
+     .card-expiry span {
+        font-size: 0.6em;
+       text-transform: uppercase;
+       opacity: 0.7; 
+        /* Makes it slightly transparent for a modern look */
+      }
+   
+      .card-holder strong,
+      .card-expiry strong {
+        font-size: 0.9em; 
+        
+        /*Relative to the font size of the parent element.” */
+       
+        display: block;
+        margin-top: 5px;
+ 
+        font-weight: bold;
+        opacity: 0.8;
+      }
+      .logo {
+        font-family: 'Verdana', 'Futura', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 2px;
+        
+      }
+ 
